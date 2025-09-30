@@ -14,10 +14,8 @@ from telegram import (
     Update,
     InlineKeyboardButton,
     InlineKeyboardMarkup,
-    BotCommand,
-    ParseMode,
-    InputMediaVideo,
 )
+from telegram.constants import ParseMode
 from telegram.constants import ChatAction
 from telegram.ext import (
     Application,
