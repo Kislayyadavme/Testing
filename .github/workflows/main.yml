@@ -1,0 +1,8 @@
+version: '3.8'
+services:
+advanced_telegram_bot:
+container_name: advanced-telegram-github-bot
+# The 'build' instruction tells Docker Compose to look for the Dockerfile
+build:
+context: .
+dockerfile: Dockerfile
